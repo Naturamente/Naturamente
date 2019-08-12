@@ -1,0 +1,254 @@
+html{
+	height: 100%; 
+}
+nav{
+    height: 5%;
+    width: 100%;
+}
+body{
+	height: 100%;
+	margin: 0px;
+	padding:0px;
+}
+#productos a{
+    color: white;
+}
+
+
+
+#barra li{
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+}
+
+#barra a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: rgba(0,0,1) 5px 5px 5px;
+} 
+
+#barra a:hover{
+	font-size: 15px; 
+	color: #0af167; 
+	border-radius: .2em
+	padding: 5px;
+} 
+
+
+#collapsibleNavbar li{
+	padding-left: 140px;
+}
+
+.logo-small{
+	font-size: 23px;
+	color: #008374;
+	text-align: center;
+}
+
+
+#botones{
+	margin-left: 
+}
+
+#iconos span{
+	font-size: 35px;
+	color: #000;
+}
+
+
+#quienesSomos{
+    background-color: #48AF7D;
+}
+
+
+#icono{
+	font-size: 50px;
+}
+
+#footer span{
+	font-size: 20px;
+	color: #b9dca4;
+}
+
+#footer h4{
+	margin: 45px;
+	color: #fff;
+}
+
+#contacto{
+   background-color: #008374;
+}
+
+/* Estilos para el boton de subir */
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #fefefe;
+}
+/*aqui terminan */
+
+
+.carousel-inner img{
+	width: 100%;
+	height: 550px;
+}
+
+
+.carousel-control-left, .carousel-control-right{
+	background-image: none;
+	color: #007bff;
+}
+
+.carousel-indicators li{
+	border-color: #007bff
+}
+
+.carousel-indicators li: active{
+	border-color: #007bff
+}
+ #letra h3,p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    line-height: 150%;
+    font-weight: bold;
+    margin: 0px auto;
+    padding-bottom: 100px;
+} 
+
+
+#titulo{
+	font-family: 'Bitter', serif;
+	font-size: 35px;
+	text-shadow: rgba();
+    color:white;
+}
+
+
+h6{
+    color: black;
+}
+
+
+#textos{
+    font-family: 'Roboto Mono', monospace;
+    line-height: 150%;
+}
+
+#textocontac{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 150%;
+}
+
+
+.imgG .mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden; 
+}
+
+.mask h2{
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	font-size: 17px;
+	padding: 10px;
+	margin: 20px 0 0 20px;
+	background: hsla(0, 0%, 0%, .8);
+}
+
+.mask p{
+	font-family: font-family: 'DM Sans', sans-serif;
+	font-style: italic;
+	font-size: 12px; 
+	position: relative;
+	color: #fff;
+	padding: 10px 20px 20px;
+	text-align: center;
+    font-size: 15pt;
+}
+
+.mask a.info{
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	background: #000;
+	color: #fff;
+	text-transform: uppercase; 
+	box-shadow: 0 0 1px #000;
+}
+
+.mask a.info:hover{
+	box-shadow: 0 0 5px #000;
+}
+
+.imgG img{
+	transition: all 0.2s linear;
+}
+
+.imgG .mask {
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	background: hsla(150, 40%, 50%);
+}
+
+.mask h2{
+	opacity: 1;
+	transform: translateY(-100px);
+	transition: all 0.2s ease-in-out; 
+}
+
+.mask p{
+	opacity: 1;
+	transform: translateY(100px);
+	transition: all 0.2s ease-in-out;
+}
+
+.mask a.info{
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.imgG:hover img{
+	transform: scale(1.1);
+} 
+
+.imgG:hover .mask{
+	opacity: 1;
+}
+
+.imgG:hover h2, .imgG:hover p, .imgG:hover a.info{
+	transform: translateY(0px);
+}
+
+.imgG:hover p{
+	transition-delay: .1s;
+}
+
+.imgG:hover a.info{
+	transition-delay: .2s;
+}
+#breve{
+    color: black;
+}
+
+
+
+/* PERSONALIZADOS */
+.bg-success-dark{
+    background: #b9dca4;
+}
+
+#cora{
+    font-size: 13pt;
+}
+article{
+    height: 100%; 
+    
+}
